@@ -11,7 +11,7 @@ const alertVariants = cva(
     variants: {
       variant: {
         default:
-          'bg-green-50 text-green-700 [&_.alert-title]:text-green-800 [&>svg]:text-green-400',
+          'bg-orange-50 text-orange-700 [&_.alert-title]:text-orange-800 [&>svg]:text-orange-400 dark:bg-orange-950/30 dark:text-orange-300 dark:[&_.alert-title]:text-orange-200 dark:[&>svg]:text-orange-500',
         neutral:
           'bg-gray-50 dark:bg-neutral-900/20 text-muted-foreground [&_.alert-title]:text-foreground',
         secondary: 'bg-blue-50 text-blue-700 [&_.alert-title]:text-blue-800 [&>svg]:text-blue-400',

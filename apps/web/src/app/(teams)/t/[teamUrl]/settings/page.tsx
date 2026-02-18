@@ -97,7 +97,7 @@ export default async function TeamsSettingsPage({ params }: TeamsSettingsPagePro
                   })
                     .with({ teamEmail: P.not(null) }, () => (
                       <>
-                        <CheckCircle2 className="mr-1.5 text-green-500 dark:text-green-300" />
+                        <CheckCircle2 className="mr-1.5 text-orange-500 dark:text-orange-300" />
                         <Trans>Active</Trans>
                       </>
                     ))

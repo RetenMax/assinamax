@@ -1,0 +1,14 @@
+{
+    "hosting": {
+        "site": "retenmax-assinamax",
+        "rewrites": [
+            {
+                "source": "**",
+                "run": {
+                    "serviceId": "assinamax",
+                    "region": "southamerica-east1"
+                }
+            }
+        ]
+    }
+}
